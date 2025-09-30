@@ -1,6 +1,6 @@
 {
   "name": "eou-probability-checker",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "scripts": {
     "build": "tsup",
     "download-model": "node ./src/download-model.js"
