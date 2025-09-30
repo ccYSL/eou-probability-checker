@@ -1,0 +1,37 @@
+{
+  "name": "eou-probability-checker",
+  "version": "1.0.6",
+  "scripts": {
+    "build": "tsup",
+    "download-model": "node ./src/download-model.js"
+  },
+  "author": "cece",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "description": "",
+  "keywords": [
+    "turn-detection",
+    "ai",
+    "conversation",
+    "eou"
+  ],
+  "devDependencies": {
+    "fs-extra": "^11.3.2",
+    "tsc": "^2.0.4",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.7.3",
+    "node-fetch": "^3.3.2",
+    "onnxruntime-node": "^1.21.0"
+  }
+}
