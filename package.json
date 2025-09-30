@@ -16,7 +16,7 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "description": "",
+  "description": "Simple End of Utterance (EOU) detection using LiveKit's ML model. Tells you the probability that someone is done speaking.",
   "keywords": [
     "turn-detection",
     "ai",
